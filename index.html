@@ -1,142 +1,142 @@
-<！doctype 超文本标记语言>
-<超文本标记语言 朗="zh-CN">
-<头>
-    <元 字符集="UTF-8">
-    <元 姓名="视口" 内容="宽度=设备宽度，初始比例=1.0">
-    <标题>大牛文件</标题>
-    <风格>
-*{
-边缘: 0;
-填充: 0;
-箱体尺寸: 边框框;
-字体系列: '宋体', 无衬线;
-}
-身体 {
-背景色：#f5f7fa；
-填充：40px20px；
-}
-。下载容器 {
-最大宽度：800px；
-边缘: 0 自动;
-背景: 白色的;
-填充：30px；
-边界半径：10px；
-箱形阴影：02px15px RGBA(0,0,0,0.05);
-}
-H1{
-颜色：#2d3748；
-底边距：25px；
-字体大小：24px；
-左边框：4PX固体#3182ce；
-左填充：15px；
-}
-。文件列表 {
-上边距：20px；
-}
-。文件-项目 {
-显示: 弯曲;
-对齐项目: 中心;
-justify-content：间距；
-填充：15px；
-下边框：1PX固体#edf2f7；
-}
-.file-info{
-显示: 弯曲;
-对齐项目: 中心;
-}
-。文件图标 {
-宽度：40px；
-高度：40px；
-背景色：#e2e8f0；
-边界半径：6px；
-显示: 弯曲;
-对齐项目: 中心;
-justify-content：中心；
-右边距：15px；
-字体大小：20px；
-颜色：#4a5568；
-}
-。文件名 {
-字体大小：16px；
-颜色：#2d3748；
-字体粗细: 500;
-}
-。文件大小 {
-字体大小：14px；
-颜色: #718096;
-上边距：3PX；
-}
-.download-btn{
-背景色：#3182ce；
-颜色: 白色的;
-边境: 没有一个;
-填充：8px16px；
-边界半径：6px；
-光标: 指针;
-字体大小：14px；
-过渡：背景色0.3s；
-}
-.download-btn：盘旋{
-背景色：#2b6cb0；
-}
-。下载提示 {
-上边距：30px；
-字体大小：14px；
-颜色: #718096;
-线高: 1.5;
-填充：12px；
-背景色：#edf2f7；
-边界半径：6px；
-}
-    </风格>
-</头>
-<身体>
-    <div 班级="下载容器">
-        <H1>大牛文件下载中心</H1>
-        <div 班级="文件列表">
-<! -- 文件1：文档类 -->
-            <div 班级="文件项">
-                <div 班级="文件信息">
-                    <div 班级="文件图标">📄</div>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>大牛文件</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        body {
+            background-color: #f5f7fa;
+            padding: 40px 20px;
+        }
+        .download-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.05);
+        }
+        h1 {
+            color: #2d3748;
+            margin-bottom: 25px;
+            font-size: 24px;
+            border-left: 4px solid #3182ce;
+            padding-left: 15px;
+        }
+        .file-list {
+            margin-top: 20px;
+        }
+        .file-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 15px;
+            border-bottom: 1px solid #edf2f7;
+        }
+        .file-info {
+            display: flex;
+            align-items: center;
+        }
+        .file-icon {
+            width: 40px;
+            height: 40px;
+            background-color: #e2e8f0;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 15px;
+            font-size: 20px;
+            color: #4a5568;
+        }
+        .file-name {
+            font-size: 16px;
+            color: #2d3748;
+            font-weight: 500;
+        }
+        .file-size {
+            font-size: 14px;
+            color: #718096;
+            margin-top: 3px;
+        }
+        .download-btn {
+            background-color: #3182ce;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background-color 0.3s;
+        }
+        .download-btn:hover {
+            background-color: #2b6cb0;
+        }
+        .download-tip {
+            margin-top: 30px;
+            font-size: 14px;
+            color: #718096;
+            line-height: 1.5;
+            padding: 12px;
+            background-color: #edf2f7;
+            border-radius: 6px;
+        }
+    </style>
+</head>
+<body>
+    <div class="download-container">
+        <h1>大牛文件下载中心</h1>
+        <div class="file-list">
+            <!-- 文件1：文档类 -->
+            <div class="file-item">
+                <div class="file-info">
+                    <div class="file-icon">📄</div>
                     <div>
-                        <div 班级="文件名">软件.拉链</div>
-                        <div 班级="文件大小">文件大小：30MB|更新时间：2025-10-15</div>
+                        <div class="file-name">软件.zip</div>
+                        <div class="file-size">文件大小：30MB | 更新时间：2025-10-15</div>
                     </div>
                 </div>
-                <一个 href="https://image.rlyun.fun/down.php/80aad734905a120ec31c38e33b7429f0.zip" 班级="下载-btn">立即下载</一个>
+                <a href="https://image.rlyun.fun/down.php/80aad734905a120ec31c38e33b7429f0.zip" class="download-btn">立即下载</a>
             </div>
 
-<! -- 文件2：压缩包类 -->
-            <div 班级="文件项">
-                <div 班级="文件信息">
-                    <div 班级="文件图标">🗜️</div>
+            <!-- 文件2：压缩包类 -->
+            <div class="file-item">
+                <div class="file-info">
+                    <div class="file-icon">🗜️</div>
                     <div>
-                        <div 班级="文件名">模块😋1.zip</div>
-                        <div 班级="文件大小">文件大小：2.88MB|更新时间：2025-10-15</div>
+                        <div class="file-name">模块😋1.zip</div>
+                        <div class="file-size">文件大小：2.88MB | 更新时间：2025-10-15</div>
                     </div>
                 </div>
-                <一个 href="https://image.rlyun.fun/down.php/e74dd07e6694870cfc34feff1df95b00.zip" 班级="下载-btn">立即下载</一个>
+                <a href="https://image.rlyun.fun/down.php/e74dd07e6694870cfc34feff1df95b00.zip" class="download-btn">立即下载</a>
             </div>
 
-<! -- 文件3：安装包类 -->
-            <div 班级="文件项">
-                <div 班级="文件信息">
-                    <div 班级="文件图标">💻</div>
+            <!-- 文件3：安装包类 -->
+            <div class="file-item">
+                <div class="file-info">
+                    <div class="file-icon">💻</div>
                     <div>
-                        <div 班级="文件名">模块2😋.zip</div>
-                        <div 班级="文件大小">文件大小：29.96kb|更新时间：2025-10-05</div>
+                        <div class="file-name">模块2😋.zip</div>
+                        <div class="file-size">文件大小：29.96kb | 更新时间：2025-10-05</div>
                     </div>
                 </div>
-                <一个 href="https://image.rlyun.fun/down.php/c121d7ee3d8ec3a4a8fb9079b0771bd3.zip" 班级="下载-btn">立即下载</一个>
+                <a href="https://image.rlyun.fun/down.php/c121d7ee3d8ec3a4a8fb9079b0771bd3.zip" class="download-btn">立即下载</a>
             </div>
         </div>
 
-        <div 班级="下载提示">
-            <p>📌  下载说明：</p>
+        <div class="download-tip">
+            <p>📌 下载说明：</p>
             <p>1. 点击「立即下载」按钮即可开始下载，若长时间无响应请刷新页面重试；</p>
             <p>2. 压缩包文件建议使用解压软件解压后使用，安装程序请按照引导完成安装；</p>
-            <p>3.作者：陌生官方QQ3875101685</p>
+            <p>3.作者:陌染 官方QQ 3875101685</p>
         </div>
     </div>
-</身体>
-</超文本标记语言>
+</body>
+</html>
